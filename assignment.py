@@ -10,7 +10,7 @@ def read_and_modify_file():
         # Modify the data (eg, converting to uppercase)
         modified_data = [line.upper() for line in data]
 
-        # Write the modified data to a new file
+        # Writes the modified data to the new file
         new_filename = "modified_" + filename
         with open(new_filename, "w") as new_file:
             new_file.writelines(modified_data)
